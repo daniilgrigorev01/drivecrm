@@ -1,2 +1,5 @@
 # Зависимости
 node_modules
+
+# Настройки IDE
+.vscode
