@@ -1,0 +1,21 @@
+{
+  "name": "drivecrm",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "bunx --bun @biomejs/biome format --write ./apps",
+    "lint": "bunx --bun @biomejs/biome lint --write ./apps"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.1",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
