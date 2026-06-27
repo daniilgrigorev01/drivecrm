@@ -5,7 +5,12 @@
     "lineWidth": 120
   },
   "linter": {
-    "domains": { "drizzle": "recommended", "react": "recommended" }
+    "domains": { "drizzle": "recommended", "react": "recommended" },
+    "rules": {
+      "a11y": {
+        "noSvgWithoutTitle": "off"
+      }
+    }
   },
   "html": {
     "experimentalFullSupportEnabled": true,
