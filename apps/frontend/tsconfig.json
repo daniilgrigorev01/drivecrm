@@ -1,13 +1,12 @@
 {
-  "extends": ["../../tsconfig.json"],
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "lib": ["ESNext", "DOM"],
     "types": ["vite/client"],
     "erasableSyntaxOnly": true,
     "baseUrl": ".",
     "paths": {
-      "@app/*": ["./src/app/*"],
-      "@components/*": ["./src/components/*"]
+      "@components/*": ["src/components/*"]
     }
   },
   "include": ["src", "vite.config.ts"]
